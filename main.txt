@@ -34,7 +34,7 @@ Resources
 	*bunny|bunnies
 		name:团子|团子
 		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
-		icon:icons[0,0]
+		icon:icons[0,7]
 		class:noBackground
 		show earned
 		
