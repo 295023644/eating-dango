@@ -45,7 +45,21 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
-		
+
+Live
+	*liveButton
+		name:直播
+		desc:拉一个团子去直播
+		on click:anim icon wobble
+		on click:lose 1 tuan
+		on click:yield 1 fan
+		icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+
 Resources
 	*tuan
 		name:团子
