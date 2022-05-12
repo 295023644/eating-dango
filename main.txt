@@ -53,7 +53,7 @@ Buttons
 	desc:拉一个团子去直播
 	on click:anim icon wobble
 	on click:lose 1 tuan
-	on click:on click:if (have tuan and chance(1%)) yield 1 fan
+	on click:on click:if (tuan > 0 and chance(1%)) yield 1 fan
 	icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
 	no text
 	class:bigButton hasFlares
