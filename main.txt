@@ -32,8 +32,8 @@ Buttons
 		
 Resources
 	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		name:团子|团子
+		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
 		icon:icons[0,0]
 		class:noBackground
 		show earned
