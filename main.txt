@@ -18,8 +18,8 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+		name:生产团子
+		desc:从大团子中搓出小团子
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
@@ -34,7 +34,7 @@ Resources
 	*bunny|bunnies
 		name:Bunny|Bunnies
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,0]
+		icon:icons[0,7]
 		class:noBackground
 		show earned
 		
