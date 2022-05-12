@@ -20,7 +20,7 @@ Layout
 		contains:Resources
 		class:fullWidth
 	*buttons
-		contains:Buttons, Live
+		contains:Buttons, tag:live
 	*store
 		contains:buildings, upgrades
 		*buildings
@@ -59,6 +59,7 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
+		tag: live
 
 Resources
 	*tuan
