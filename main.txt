@@ -32,7 +32,7 @@ Buttons
 		
 Resources
 	*bunny|bunnies
-		name:Bunny1|Bunnies
+		name:Bunny1|Bunnies2
 		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
 		icon:icons[0,7]
 		class:noBackground
