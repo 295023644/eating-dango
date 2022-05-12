@@ -4,7 +4,7 @@ Let's make a game!
 	desc:阿团不够吃了！直播间的观众们陷入了大危机.<//>你能生产足够的团子，拯救直播间吗？
 	created:12/5/2022
 	updated:12/5/2022
-	version:1
+	version:1.0.1
 
 Settings
 	background:stuff/meadow.jpg
@@ -29,6 +29,19 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 		
+	*liveButton
+		name:直播
+		desc:拉一个团子去直播
+		on click:anim icon wobble
+		on click:lose 1 tuan
+		on click:yield 1 fan
+		icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
+		
 Resources
 	*tuan
 		name:团子
@@ -37,7 +50,22 @@ Resources
 		class:noBackground
 		show earned
 
+	*fan
+		name:粉丝
+		desc:来直播间找团团吃的DD。
+		icon:icons[0,1]
+		class:noBackground
+		show earned
+		hidden when 0
 
+	*jianzhang
+		name:舰长
+		desc:舰长。
+		icon:icons[0,2]
+		class:noBackground
+		show earned
+		hidden when 0
+		
 Buildings
 	*TEMPLATE
 		on click:anim glow
