@@ -10,7 +10,7 @@ Settings
 	background:stuff/meadow.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://s2.loli.net/2022/05/12/lQICwxd3ckXfjNn.png
+	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuanIcons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -23,7 +23,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
