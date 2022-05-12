@@ -31,8 +31,15 @@ Buttons
 		tooltip class:red
 		
 Resources
+	*tuan
+		name:团子
+		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
+		icon:icons[0,7]
+		class:noBackground
+		show earned
+		
 	*bunny|bunnies
-		name:Bunny|name
+		name:Bunny|Bunnies
 		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
 		icon:icons[0,6]
 		class:noBackground
