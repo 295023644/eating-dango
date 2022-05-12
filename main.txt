@@ -21,9 +21,9 @@ Buttons
 		name:生产团子
 		desc:从大团子中搓出小团子
 		on click:anim icon wobble
-		on click:yield 1 tuan
+		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
+		icon:stuff/bunny.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -31,10 +31,10 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*tuan|tuan
-		name:tuan|tuan
-		desc:好吃又可爱的团子，大家都爱吃！尽可能多的制作团子吧！
-		icon:icons[0,7]
+	*bunny|bunnies
+		name:Bunny|Bunnies
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:icons[0,0]
 		class:noBackground
 		show earned
 		
