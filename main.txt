@@ -20,7 +20,11 @@ Layout
 		contains:Resources
 		class:fullWidth
 	*buttons
-		contains:Buttons, tag:live
+		contains:Buttons
+		class:fullWidth
+	*live
+		contains:tag:live
+		class:fullWidth
 	*store
 		contains:buildings, upgrades
 		*buildings
