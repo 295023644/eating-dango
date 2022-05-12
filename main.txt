@@ -21,7 +21,7 @@ Buttons
 		name:生产团子
 		desc:从大团子中搓出小团子
 		on click:anim icon wobble
-		on click:yield 1 团子
+		on click:yield 1 tuan
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
 		icon:https://raw.githubusercontent.com/295023644/eating-dango/main/img/tuan.png
 		no text
