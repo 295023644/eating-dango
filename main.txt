@@ -36,3 +36,17 @@ Resources
 		icon:icons[0,7]
 		class:noBackground
 		show earned
+
+
+Buildings
+	*TEMPLATE
+		on click:anim glow
+		
+	*tamias
+		name:花栗鼠小屋
+		desc:雇佣花栗鼠生产团子.<//><b>Effect:</b><.>每十秒生产一个团子.
+		icon:icons[3,0]
+		cost:15 bunnies
+		on tick:yield 0.1 tuan
+		unlocked
+	
