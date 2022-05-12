@@ -46,7 +46,7 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
 
-Live
+*Live
 	*liveButton
 		name:直播
 		desc:拉一个团子去直播
